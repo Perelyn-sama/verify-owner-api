@@ -55,6 +55,6 @@ Contract Address example: 0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e
 Account Address example: 0x5a019874F4Fae314b0eAA4606Be746366e661306
 Network example: eth, solana, bsc
 
-Run in browser  http://localhost:7000/api/owner/0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e/0x5a019874F4Fae314b0eAA4606Be746366e661306?network=eth
+http://localhost:7000/api/owner/0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e/0x5a019874F4Fae314b0eAA4606Be746366e661306?network=eth
 
 ```
