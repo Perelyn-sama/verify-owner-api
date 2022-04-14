@@ -52,9 +52,11 @@ GET /api/owner/:contract/:address?network=eth HTTP/1.1
 Accept: application/json
 
 Contract Address example: 0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e
+
 Account Address example: 0x5a019874F4Fae314b0eAA4606Be746366e661306
+
 Network example: eth, solana, bsc
 
-http://localhost:7000/api/owner/0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e/0x5a019874F4Fae314b0eAA4606Be746366e661306?network=eth
+URL example: http://localhost:7000/api/owner/0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e/0x5a019874F4Fae314b0eAA4606Be746366e661306?network=eth
 
 ```
