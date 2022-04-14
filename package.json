@@ -1,0 +1,22 @@
+{
+  "name": "verify-owner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.3.0",
+    "@solana/web3.js": "^1.24.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "validatorjs": "^3.22.1",
+    "web3": "^1.5.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
+}
