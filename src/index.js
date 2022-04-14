@@ -59,18 +59,15 @@ app.get("/api/owner/:contract/:address", async (req, res) => {
       : null;
 
   const web3 = new Web3(new Web3.providers.HttpProvider(network));
-  const instance = new web3.eth.Contract(abi, req.params.address);
+  const instance = new web3.eth.Contract(abi, req.params.contract);
 
   try {
     const response = await instance.methods.owner().call();
 
-    // return res.json({
-    //   amount: parseFloat(web3.utils.fromWei(userBalance, "ether")),
-    // });
-    if (response == req.params.contract) {
-      return res.json(true);
+    if (response == req.params.address) {
+      return res.json({ status: true });
     } else {
-      return false;
+      return res.json({ status: false });
     }
     // return res.json(response);
   } catch (error) {
